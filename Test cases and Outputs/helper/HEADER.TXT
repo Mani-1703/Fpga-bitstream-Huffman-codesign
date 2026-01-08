@@ -1,0 +1,7 @@
+Xilinx ASCII Bitstream
+Created by Bitstream 2023.1 SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+Design name: 	incrementer;COMPRESS=FALSE;UserID=0XFFFFFFFF;Version=2023.1
+Architecture:	zynq
+Part:        	7z020clg484
+Date:        	Thu Aug 21 16:14:43 2025
+Bits:        	32364512

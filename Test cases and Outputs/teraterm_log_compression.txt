@@ -1,0 +1,36 @@
+
+
+==== Huffman Compression + Encryption Chain: START ====
+
+---- Bit Parsing Stage ----
+Bit Parser: Processed 500000 32-bit words.
+Bit Parser: Processed 1000000 32-bit words.
+Bit Parsing complete. Total 32-bit words processed: 1011391
+
+---- Frequency Counting Stage ----
+Frequency Counting Stage Complete: 4045564 symbols processed
+
+---- Huffman Codebook Generator Stage ----
+Huffman Codebook Generation : done.
+
+---- Huffman Compression Stage ----
+Loading Huffman table into hardware...
+  500000 Symbols Processed
+  1000000 Symbols Processed
+  1500000 Symbols Processed
+  2000000 Symbols Processed
+  2500000 Symbols Processed
+  3000000 Symbols Processed
+  3500000 Symbols Processed
+  4000000 Symbols Processed
+Huffman Compression: DONE. Encoded 4045564 symbols
+
+---- Bundling Stage ----
+Successfully Completed Bundling.
+
+---- Encryption Stage ----
+Encryption complete: COMP.BIN -> ENCR.BIN (key=0x5A)
+Cleanup enabled, deleting helper files...
+Cleanup complete.
+==== Total execution time: 3:36 (min:sec) ====
+==== Huffman Compression + Encryption Chain: DONE ====

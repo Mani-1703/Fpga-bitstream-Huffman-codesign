@@ -1,0 +1,35 @@
+==== Total execution time: 11:23 (min:sec) ====
+
+
+
+
+------------------------------------------------------------teraterm----------------------------------------------------------------------
+
+
+==== Decryption & Huffman Decompression Pipeline START ====
+---- Decrypting ENCR.bin ----
+---- Decryption Complete ----
+---- Regenerating Helper Files ----
+---- Helper Files Regenerated ----
+---- Loading Huffman Table ----
+---- Huffman Table Loaded ----
+---- Decompressing ----
+  500000 symbols decompressed
+  1000000 symbols decompressed
+  1500000 symbols decompressed
+  2000000 symbols decompressed
+  2500000 symbols decompressed
+  3000000 symbols decompressed
+  3500000 symbols decompressed
+  4000000 symbols decompressed
+---- Decompression Done: 4045564 symbols ----
+==== Bit Merger IP ====
+  500000 words merged so far
+  1000000 words merged so far
+Total number of 32-bit words merged: 1011391
+==== Merging Files to create DECOMP.rbt ====
+==== Created final decompressed file: DECOMP.rbt ====
+Cleanup enabled. Deleting intermediate helper files...
+Cleanup complete==== Total execution time: 11:23 (min:sec) ====
+==== Huffman Decompression Pipeline COMPLETE ====
+
