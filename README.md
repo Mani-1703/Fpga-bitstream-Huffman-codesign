@@ -32,3 +32,16 @@ Huffman Encoder → Encryption → Storage
 - AMD Vitis 2023.1 – Software control and HW–SW integration
 - ZedBoard (Zynq-7000, xc7z020) – Target hardware platform
 - Tera Term – UART-based debug and runtime logs
+
+## License
+
+This project is released under the **MIT License**.  
+© 2026 Manivannan C.
+
+See the `LICENSE` file for full details.
+
+## Disclaimer
+
+This repository represents academic work carried out during an internship.
+The views, design choices, and implementations are those of the author and
+do not represent official positions of NIT Tiruchirappalli.
