@@ -25,3 +25,10 @@ Huffman Encoder → Encryption → Storage
 ## Results
 - Average compression: ~63%
 - Verified lossless recovery by reprogramming FPGA
+
+## Tools and Platform
+
+- AMD Vivado 2023.1 – RTL design, synthesis, implementation
+- AMD Vitis 2023.1 – Software control and HW–SW integration
+- ZedBoard (Zynq-7000, xc7z020) – Target hardware platform
+- Tera Term – UART-based debug and runtime logs
