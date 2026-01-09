@@ -62,3 +62,15 @@ an SD card using the **xilffs (FatFs)** library.
 - Ensure `xilffs` is enabled in the BSP
 - Program the FPGA with the corresponding Vivado bitstream
 - Run the application on the Zynq PS via UART
+
+## Third-Party Code Notice
+
+The files `sdcard.c` and `sdcard.h` are **not original work** of this project.
+
+They are adapted from the following repository by **Prof. Vipin K. Menon**:
+
+https://github.com/vipinkmenon/sdReadWrite/tree/master/rgb2grayWithSDCard
+
+These files are used solely to provide **SD card read/write support**
+using the FAT32 file system in Vitis. Minor modifications were made
+to integrate them with this project’s file naming and pipeline flow.

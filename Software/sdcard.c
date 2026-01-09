@@ -1,13 +1,14 @@
 /*
- * sdcard.c
+ * sdcard.c / sdcard.h
  *
- * Implementation of SD card file I/O helpers
- * using the xilffs (FatFs) library.
+ * Original Author: Prof. Vipin K. Menon
+ * Source:
+ * https://github.com/vipinkmenon/sdReadWrite/tree/master/rgb2grayWithSDCard
  *
- * This module provides a lightweight abstraction
- * over FATFS for use in hardware–software
- * co-designed applications.
+ * This file is used for SD card read/write support (FAT32)
+ * and has been adapted for use in this project.
  */
+
 #include "sdCard.h"
 #include <stdlib.h> // for malloc and free
 

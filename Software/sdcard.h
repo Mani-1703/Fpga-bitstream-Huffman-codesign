@@ -1,11 +1,14 @@
 /*
- * sdcard.h
+ * sdcard.c / sdcard.h
  *
- * Simple SD card and FATFS helper functions for
- * Zynq bare-metal applications using xilffs.
+ * Original Author: Prof. Vipin K. Menon
+ * Source:
+ * https://github.com/vipinkmenon/sdReadWrite/tree/master/rgb2grayWithSDCard
  *
- * Target platform : ZedBoard (Zynq-7000)
+ * This file is used for SD card read/write support (FAT32)
+ * and has been adapted for use in this project.
  */
+
 #include <xil_types.h>
 #include "ff.h"
 #include "xil_printf.h"
