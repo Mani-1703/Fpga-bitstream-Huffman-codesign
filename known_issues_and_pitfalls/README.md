@@ -41,7 +41,7 @@ to Vitis; otherwise, the faulty Makefile will continue to be used.
 
 Reference:
 - AMD/Xilinx Answer Record 75527
-[text](https://www.xilinx.com/support/answers/75527.html)
+[link](https://www.xilinx.com/support/answers/75527.html)
 ---
 
 ### 3. Vitis FAT32 and SD Card File Naming Constraints
